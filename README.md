@@ -1,17 +1,25 @@
 # oah-health-vm
+
 ### Getting started
 
-After OAH is installed :
+Prerequistes :
 
-Please try
+a) Ansible must be installed. 
+
+
+b) git clone the project
+
+c) Install ansible roles required. 
+
 ```
-oah install oah-health-vm
+ansible-galaxy install -r ./provisioning/oah-requirements.yml
 
 ```
+d) Then bring up the machine using 
 
-to install this oah-health-vm
+```
+chmod +x quick_install.sh
+./quick_install.sh
 
 
-### How to install **OAH**
-
-You will need to install oah-shell using oah-installer before trying out oah-health-vm
+```
