@@ -1,6 +1,6 @@
 # oah-health-vm
 
-### Getting started
+Instructions to bring up the machine on Linux
 
 Prerequistes :
 
@@ -8,6 +8,12 @@ a) Ansible must be installed.
 
 
 b) git clone the project
+
+```
+
+git clone https://github.com/oah-health/oah-health-vm.git
+
+```
 
 c) Install ansible roles required. 
 
