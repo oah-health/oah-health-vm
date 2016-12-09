@@ -2,7 +2,7 @@
 # environment Name
 env_name: oah-health-vm
 # `vagrant_box` .
-vagrant_box: virtualenv/ubuntu1404
+vagrant_box: oah/ubuntu1604
 vagrant_user: vagrant
 oah_user: oahdev
 
